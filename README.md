@@ -4,7 +4,7 @@
 // 環境
 // swift 5.3
 
-// var data: [[String: String] = [ シンタックスシュガー宣言
+// var data: [[String: String]] = [ シンタックスシュガー宣言
 var data: Array<Dictionary<String, String>> = [
     [ num: "1", val: "B"],
     [ num: "0", val: "A"],
