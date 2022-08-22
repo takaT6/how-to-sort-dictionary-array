@@ -4,7 +4,7 @@
 //環境
 //swift 5.3
 
-var data = [
+var data: [Dictionary<String, String>] = [
     [ num: "1", val: "B"],
     [ num: "0", val: "A"],
     [ num: "2", val: "C"],
