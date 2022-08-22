@@ -22,6 +22,6 @@ var data: Array<Dictionary<String, String>> = [
 data = data.sorted(by: {Int($0["num"]!)! < Int($1["num"]!)!})
 
 // 降順
-data = data.sorted(by: {Int($0["num"]!)! < Int($1["num"]!)!})
+data = data.sorted(by: {Int($0["num"]!)! > Int($1["num"]!)!})
 ```
 
