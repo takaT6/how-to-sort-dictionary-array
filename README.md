@@ -5,12 +5,12 @@
 //swift 5.3
 
 var data = [
-    { num: 1, val: "B"},
-    { num: 0, val: "A"},
-    { num: 2, val: "C"},
-    { num: 5, val: "F"},
-    { num: 4, val: "E"},
-    { num: 3, val: "D"}
+    [ num: 1, val: "B"],
+    [ num: 0, val: "A"],
+    [ num: 2, val: "C"],
+    [ num: 5, val: "F"],
+    [ num: 4, val: "E"],
+    [ num: 3, val: "D"]
 ]
 ```
 
