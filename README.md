@@ -1,10 +1,11 @@
 # Swift5で辞書の配列をソートしたいときの対処法
 下記のようなDictionary型を配列にした変数があるとする.....
 ```bash
-//環境
-//swift 5.3
+// 環境
+// swift 5.3
 
-var data: [Dictionary<String, String>] = [
+// var data: [[String: String] = [ シンタックスシュガー宣言
+var data: Array<Dictionary<String, String>> = [
     [ num: "1", val: "B"],
     [ num: "0", val: "A"],
     [ num: "2", val: "C"],
@@ -17,10 +18,10 @@ var data: [Dictionary<String, String>] = [
 上記の配列をnumをキーとしてソートしたいという地獄的な場面に遭遇した場合は下記の一行で昇順、降順にソートできる。
 
 ```bash
-//昇順
+/ 昇順
 data = data.sorted(by: {Int($0["num"]!)! < Int($1["num"]!)!})
 
-//降順
+// 降順
 data = data.sorted(by: {Int($0["num"]!)! < Int($1["num"]!)!})
 ```
 
