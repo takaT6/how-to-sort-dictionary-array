@@ -1,6 +1,6 @@
 # Swift5で辞書の配列をソートしたいときの対処法
 下記のようなDictionary型を配列にした変数があるとする.....
-```bash
+```siwft
 // 環境
 // swift 5.3
 
@@ -17,7 +17,7 @@ var data: Array<Dictionary<String, String>> = [
 
 上記の配列をnumをキーとしてソートしたいという地獄的な場面に遭遇した場合は下記の一行で昇順、降順にソートできる。
 
-```bash
+```siwft
 / 昇順
 data = data.sorted(by: {Int($0["num"]!)! < Int($1["num"]!)!})
 
